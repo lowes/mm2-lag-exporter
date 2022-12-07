@@ -2,12 +2,12 @@
 
 ## Mirrormaker 2
 
-Apache Kafka MirrorMaker2 replicates data across two Kafka clusters, within or across data centers. MirrorMaker takes  
+Apache Kafka MirrorMaker2 replicates data across two Kafka clusters, within or across data centers. MirrorMaker takes 
 messages from a source Kafka cluster and writes them to a target Kafka cluster.
 
 ## MM2 Lag Exporter
 
-This application monitors the mirror maker 2 replication process and calculates the mirroring lag between source and  
+This application monitors the mirror maker 2 replication process and calculates the mirroring lag between source and 
 target cluster topics.These lag details are exposed as REST endpoints and as well as prometheus metrics which can be visualized in grafana dashboard.
 
 ## Architecture
